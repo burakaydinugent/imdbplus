@@ -3,16 +3,16 @@ import Image from "next/image"
 
 const Navigation = ({ locale, locales }) => {
   const resolveMovies = {
-    en: 'Movies',
+    en: 'Artists',
   }
   const resolvePeople = {
-    en: 'People',
+    en: 'Merchandise',
   }
   const resolveNews = {
     en: 'News',
   }
   const resolveMerchandise = {
-    en: 'Shop',
+    en: 'Tickets',
   }
   let homeurl = "/";
   if (locale != 'default') {
