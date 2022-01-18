@@ -10,9 +10,9 @@ const Layout = ({ children, locale, locales, data }) => {
 
   const router = useRouter();
 
-  let title = "IMDBPlus";
+  let title = "TodayLand";
   let description = "description for page";
-  let sitename="IMDB Plus";
+  let sitename="TodayLand";
   let url = router.basePath;
   const hostname="https://imdbplus.vercel.app/"
   if (typeof window !== 'undefined') {
