@@ -20,7 +20,7 @@ const NewsItemList = ({ data, level, locale }) => {
   return (
 
     <div>
-      {items && items.length > 0 && <SmallCardList items={items} title="The Latest News" type="newsitem"></SmallCardList>}
+      {items && items.length > 0 && <SmallCardList items={items} title="Right Now in the World..." type="newsitem"></SmallCardList>}
     </div>
 
   );
