@@ -5,19 +5,15 @@ const NavigationMobile = ({ locale, locales }) => {
 
   const resolveMovies = {
     en: 'Movies',
-    nl: 'Films',
   }
   const resolvePeople = {
     en: 'People',
-    nl: 'Mensen',
   }
   const resolveNews = {
     en: 'News',
-    nl: 'Nieuws',
   }
   const resolveMerchandise = {
     en: 'Shop',
-    nl: 'Winkel',
   }
   function togglenav() {
     setNavstate(result.data.stories);

@@ -4,19 +4,15 @@ import Image from "next/image"
 const Navigation = ({ locale, locales }) => {
   const resolveMovies = {
     en: 'Movies',
-    nl: 'Films',
   }
   const resolvePeople = {
     en: 'People',
-    nl: 'Mensen',
   }
   const resolveNews = {
     en: 'News',
-    nl: 'Nieuws',
   }
   const resolveMerchandise = {
     en: 'Shop',
-    nl: 'Winkel',
   }
   let homeurl = "/";
   if (locale != 'default') {

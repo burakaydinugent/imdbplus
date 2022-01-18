@@ -10,27 +10,22 @@ import SmallCardList from "./SmallCardList"
 
 const resolveDirectors = {
   en: 'Directors',
-  nl: 'Regisseurs',
 }
 
 const resolveWriters = {
   en: 'Writers',
-  nl: 'Schrijvers',
 }
 
 const resolveStars = {
   en: 'Stars',
-  nl: 'Sterren',
 }
 
 const resolveMerchandise = {
   en: 'Merchandise',
-  nl: 'Producten',
 }
 
 const resolveNews = {
   en: 'News',
-  nl: 'Nieuws',
 }
 
 const Movie = ({ data, level }) => {
