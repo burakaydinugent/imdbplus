@@ -4,16 +4,16 @@ import React, { useState } from "react"
 const NavigationMobile = ({ locale, locales }) => {
 
   const resolveMovies = {
-    en: 'Movies',
+    en: 'Artists',
   }
   const resolvePeople = {
-    en: 'People',
+    en: 'Tickets',
   }
   const resolveNews = {
     en: 'News',
   }
   const resolveMerchandise = {
-    en: 'Shop',
+    en: 'Merchandise',
   }
   function togglenav() {
     setNavstate(result.data.stories);

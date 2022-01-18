@@ -6,13 +6,13 @@ const Navigation = ({ locale, locales }) => {
     en: 'Artists',
   }
   const resolvePeople = {
-    en: 'Merchandise',
+    en: 'Tickets',
   }
   const resolveNews = {
     en: 'News',
   }
   const resolveMerchandise = {
-    en: 'Tickets',
+    en: 'Merchandise',
   }
   let homeurl = "/";
   if (locale != 'default') {
