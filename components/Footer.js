@@ -14,8 +14,8 @@ const Footer = () => {
         </div>
         <p>Sponsors</p>
         <img
-            src="https://a.storyblok.com/f/133261/3039x582/a60d166ec2/logo-colored-full.png/m/200x0"
-            alt="IMDBPlus Logo"
+            src="https://en.wikipedia.org/wiki/Stella_Artois#/media/File:Stella_Artois_logo.svg"
+            alt="stella artois"
             className=""
           />
       </div>
