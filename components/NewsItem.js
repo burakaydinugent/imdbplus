@@ -38,8 +38,8 @@ const NewsItem = ({ data, level }) => {
           <div className={styles.article}>
             {render(content.article)}
           </div>
-          {movies && movies.length > 0 && <SmallCardList items={movies} title="Related personalities" type="personality"></SmallCardList>}
-          {personalities && personalities.length > 0 && <SmallCardList items={personalities} title="Related personalities" type="personality"></SmallCardList>}
+          {movies && movies.length > 0 && <SmallCardList items={movies} title="Related Artists" type="personality"></SmallCardList>}
+          {personalities && personalities.length > 0 && <SmallCardList items={personalities} title="Related Artists" type="personality"></SmallCardList>}
       
         </div>
       </main>
