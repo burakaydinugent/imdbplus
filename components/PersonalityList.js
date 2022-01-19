@@ -20,7 +20,7 @@ const PersonalityList = ({ data, level }) => {
   return (
 
     <div>
-      {items && items.length > 0 && <SmallCardList items={items} title="Don't miss the best artists" type="personality"></SmallCardList>}
+      {items && items.length > 0 && <SmallCardList items={items} title="The Artists you don't want to miss!" type="personality"></SmallCardList>}
     </div>
   );
 };
